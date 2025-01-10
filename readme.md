@@ -25,7 +25,7 @@ CUDA 11.8
 CUDNN 8.9
 ```
 
-## 기본 설치 및 환경 세팅
+# 기본 설치 및 환경 세팅
 ```shell
 sudo apt install build-essential bison flex libelf-dev dkms
 ```
@@ -54,7 +54,7 @@ pip install hailort-4.20.0-cp310-cp310-linux_x86_64.whl
 pip install hailo_model_zoo-2.14.0-py3-none-any.whl 
 ```
 
-## model zoo 이용
+# model zoo 이용
 
 ```bash
 git clone https://github.com/hailo-ai/hailo_model_zoo.git
