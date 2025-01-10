@@ -25,6 +25,11 @@ CUDA 11.8
 CUDNN 8.9
 ```
 
+# 기본 설치
+```shell
+sudo apt install build-essential bison flex libelf-dev dkms
+```
+
 ### 파이썬 및 가상환경 설치
 
 ```bash
@@ -54,20 +59,4 @@ pip install hailo_model_zoo-2.14.0-py3-none-any.whl
 ```bash
 git clone https://github.com/hailo-ai/hailo_model_zoo.git
 cd hailo_model_zoo/
-```
-
-# 기본 설치
-```shell
-sudo apt install build-essential bison flex libelf-dev dkms
-```
-
-# 모듈빌드를 위한 kernel header
-```
-sudo apt install linux-headers-$(uname -r)
-```
-
-# deb 필수 요소 파일들 설치
-![image](hailo_1.png)
-```
-sudo dpkg -i hailort_4.20.0_amd64.deb hailort-pcie-driver_4.20.0_all.deb 
 ```
