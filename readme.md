@@ -1,6 +1,6 @@
 # 사용 환경 및 요구사항
 
-System Requirements
+### System Requirements
 
 ```
 Ubuntu 20.04/22.04, 64 bit (supported also on Windows, under WSL2)
@@ -14,7 +14,7 @@ CUDA 11.8
 CUDNN 8.9
 ```
 
-사용 환경
+### 사용 환경
 
 ```
 우분투 22.04
@@ -23,6 +23,26 @@ GPU architecture RTX3060ti
 GPU driver version 525
 CUDA 11.8
 CUDNN 8.9
+```
+
+### 파이썬 및 가상환경 설치
+
+```bash
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.10 python3.10-venv python3.10-distutils
+sudo apt-get install python3.10-dev
+sudo apt-get install build-essential
+```
+
+```bash
+python3.10 -m venv hailo_model_zoo
+source hailo_model_zoo/bin/activate
+
+pip install --upgrade pip setuptools
+pip install netifaces
+pip install hailort-4.20.0-cp310-cp310-linux_x86_64.whl
+pip install hailo_model_zoo-2.14.0-py3-none-any.whl 
 ```
 
 # 기본 설치
