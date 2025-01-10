@@ -11,7 +11,8 @@ sudo apt install build-essential bison flex libelf-dev dkms
 sudo apt install linux-headers-$(uname -r)
 ```
 
-# deb 파일들 설치
+# deb 필수 요소 파일들 설치
+![image](hailo_1.png)
 ```
-
+sudo dpkg -i hailort_4.20.0_amd64.deb hailort-pcie-driver_4.20.0_all.deb 
 ```
