@@ -11,7 +11,7 @@ sudo apt install build-essential bison flex libelf-dev dkms
 sudo apt install linux-headers-$(uname -r)
 ```
 
-# https://github.com/hailo-ai/hailort-drivers/blob/master/download_firmware.sh 다운 받아서 firmware 위치에 옮겨주기
+# deb 파일들 설치
 ```
-cd /home/tommy/Downloads/
+
 ```
