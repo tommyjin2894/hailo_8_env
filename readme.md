@@ -1,6 +1,8 @@
 # 사용 환경 및 요구사항
 
 System Requirements
+
+```
 Ubuntu 20.04/22.04, 64 bit (supported also on Windows, under WSL2)
 Python 3.8/3.9/3.10, including pip and virtualenv
 Hailo Dataflow Compiler v3.30.0 (Obtain from hailo.ai)
@@ -10,14 +12,18 @@ Nvidia’s Pascal/Turing/Ampere GPU architecture (such as Titan X Pascal, GTX 10
 GPU driver version 525
 CUDA 11.8
 CUDNN 8.9
+```
 
 사용 환경
+
+```
 우분투 22.04
 파이썬 3.10 with virtualenv
 GPU architecture RTX3060ti
 GPU driver version 525
 CUDA 11.8
 CUDNN 8.9
+```
 
 # 기본 설치
 ```shell
