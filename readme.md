@@ -9,7 +9,7 @@ Hailo Dataflow Compiler v3.30.0 (Obtain from hailo.ai)
 HailoRT 4.20.0 (Obtain from hailo.ai) - required only for inference on Hailo-8.
 The Hailo Model Zoo supports Hailo-8 / Hailo-10H connected via PCIe only.
 Nvidia’s Pascal/Turing/Ampere GPU architecture (such as Titan X Pascal, GTX 1080 Ti, RTX 2080 Ti, or RTX A4000)
-GPU driver version 525
+GPU driver version 535.183.01
 CUDA 11.8
 CUDNN 8.9
 ```
