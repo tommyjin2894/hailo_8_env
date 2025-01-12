@@ -40,6 +40,7 @@ sudo apt-get install build-essential
 sudo apt-get install graphviz-dev
 ```
 ### 환경 생성 및 라이브러리 설치
+- [원하는 버전선택하여 각각 다운로드][https://hailo.ai/developer-zone/software-downloads/]
 
 ```bash
 python3.10 -m venv hailo_model_zoo
