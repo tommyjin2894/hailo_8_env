@@ -15,6 +15,11 @@ CUDNN 8.9
 ```
 
 ### GPU드라이버 설치하기
+```bash
+sudo apt update
+sudo apt upgrade
+```
+
 - 기존 설치되어있는 드라이버 삭제
   ```bash
   sudo apt-get purge nvidia*
