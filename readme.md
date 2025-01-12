@@ -15,7 +15,7 @@ CUDNN 8.9
 
 ### 사용 환경
 
-```
+```bash
 우분투 22.04
 파이썬 3.10 with virtualenv
 GPU architecture RTX3060ti
