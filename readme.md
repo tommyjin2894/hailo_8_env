@@ -61,4 +61,29 @@ https://github.com/hailo-ai/hailo_model_zoo
 ```bash
 git clone https://github.com/hailo-ai/hailo_model_zoo.git
 cd hailo_model_zoo/
+pip install -e .
 ```
+
+- 모델 테스트
+  ```bash
+  hailomz info mobilenet_v1
+  ```
+
+  ```bash
+    (hailo_model_zoo) tommy@tommy:~/Downloads/hailo_model_zoo$ hailomz info mobilenet_v1
+  <Hailo Model Zoo INFO> Start run for network mobilenet_v1 ...
+  <Hailo Model Zoo INFO> 
+  	task:                    classification
+  	input_shape:             224x224x3
+  	output_shape:            1001
+  	operations:              1.14G
+  	parameters:              4.22M
+  	framework:               tensorflow
+  	training_data:           imagenet train
+  	validation_data:         imagenet val
+  	eval_metric:             Accuracy (top1)
+  	full_precision_result:   70.97
+  	source:                  https://github.com/tensorflow/models/tree/v1.13.0/research/slim
+  	license_url:             https://github.com/tensorflow/models/blob/master/LICENSE
+  (hailo_model_zoo) tommy@tommy:~/Downloads/hailo_model_zoo$ 
+  ```
