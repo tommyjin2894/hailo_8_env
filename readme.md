@@ -56,6 +56,8 @@ pip install hailo_model_zoo-2.14.0-py3-none-any.whl
 
 # model zoo 이용
 
+https://github.com/hailo-ai/hailo_model_zoo
+
 ```bash
 git clone https://github.com/hailo-ai/hailo_model_zoo.git
 cd hailo_model_zoo/
