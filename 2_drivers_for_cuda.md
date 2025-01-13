@@ -12,6 +12,19 @@ CUDNN 8.9
 sudo lshw -c display
 sudo ubuntu-drivers devices
 ```
+### NVIDIA 관련 모두 삭제
+
+```bash
+sudo apt-get --purge remove 'cuda*'
+sudo apt-get autoremove --purge 'cuda*'
+sudo apt-get remove --purge '^nvidia-.*'
+sudo rm -rf /usr/local/cuda*
+sudo rm -rf /usr/lib/nvidia-*
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo apt-get update
+
+```
 
 ### 드라이버 설치
 
