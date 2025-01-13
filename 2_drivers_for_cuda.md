@@ -6,12 +6,6 @@ CUDA 11.8
 CUDNN 8.9
 ```
 
-소프트웨어 & 업데이트 -> 추가 드라이버
-
-```bash
-sudo lshw -c display
-sudo ubuntu-drivers devices
-```
 ### NVIDIA 관련 모두 삭제
 
 ```bash
