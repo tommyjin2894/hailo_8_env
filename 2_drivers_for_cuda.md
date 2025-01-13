@@ -33,3 +33,10 @@ sudo cp /var/cuda-repo-ubuntu2204-11-8-local/cuda-*-keyring.gpg /usr/share/keyri
 sudo apt-get update
 sudo apt-get -y install cuda
 ```
+
+### cudnn 설치
+
+[https://developer.nvidia.com/rdp/cudnn-archive]
+```bash
+
+```
