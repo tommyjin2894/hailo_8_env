@@ -36,7 +36,7 @@ sudo apt-get -y install cuda
 
 ### cudnn 설치
 
-[https://developer.nvidia.com/rdp/cudnn-archive]
+https://developer.nvidia.com/rdp/cudnn-archive
 ```bash
 
 ```
