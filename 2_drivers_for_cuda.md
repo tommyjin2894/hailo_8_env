@@ -26,12 +26,6 @@ sudo apt-get update
 
 ```
 
-### 드라이버 설치
-
-```bash
-sudo apt install nvidia-driver-550
-```
-
 ### CUDA Toolkit 11.8 설치
 
 [참고](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local)
