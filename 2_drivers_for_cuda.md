@@ -19,6 +19,21 @@ sudo apt-get autoclean
 sudo apt-get update
 
 ```
+### installs
+
+```
+sudo apt install build-essential
+sudo apt update && sudo apt upgrade
+```
+
+###
+```
+sudo nano /etc/modprobe.d/blacklist-nouveau.conf
+```
+
+```
+sudo apt install nvidia-driver-550
+```
 
 ### CUDA Toolkit 11.8 설치
 
