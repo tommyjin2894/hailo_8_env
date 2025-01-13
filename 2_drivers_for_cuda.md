@@ -11,3 +11,8 @@ CUDNN 8.9
 sudo lshw -c display
 sudo ubuntu-drivers devices
 ```
+
+### 드라이버 설치
+```
+sudo apt install nvidia-driver-550
+```
