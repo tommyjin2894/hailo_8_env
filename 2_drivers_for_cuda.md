@@ -26,11 +26,6 @@ sudo apt install build-essential
 sudo apt update && sudo apt upgrade
 ```
 
-###
-```
-sudo nano /etc/modprobe.d/blacklist-nouveau.conf
-```
-
 ```
 sudo apt install nvidia-driver-550
 sudo apt install cuda-toolkit-11.8
