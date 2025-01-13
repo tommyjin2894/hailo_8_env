@@ -1,6 +1,6 @@
 ### 시스템 요구사항
 ```
-GPU driver version 535.183.01
+GPU driver version 535.183.01 (이상)
 CUDA 11.8
 CUDNN 8.9
 ```
