@@ -19,16 +19,16 @@ sudo apt-get autoclean
 sudo apt-get update
 
 ```
-### installs
 
+### build-essential tools install
 ```
 sudo apt install build-essential
 sudo apt update && sudo apt upgrade
 ```
 
+### nvidia-driver installing
 ```
 sudo apt install nvidia-driver-550
-
 ```
 
 ### CUDA Toolkit 11.8 설치
