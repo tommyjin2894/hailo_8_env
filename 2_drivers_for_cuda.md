@@ -26,7 +26,7 @@ sudo apt install build-essential
 sudo apt update && sudo apt upgrade
 ```
 
-### nvidia 드라이버 및 CUDA Toolkit 11.8 설치
+### nvidia 드라이버 및 CUDA Toolkit 설치
 
 [링크](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local)
 
