@@ -22,3 +22,9 @@ sudo snap remove firefox
 ### 우분투 한글화 및 한영 키보드 설정
 
 [참고](https://staraube.tistory.com/105)
+
+### graphviz 설치하기
+
+```bash
+sudo apt install graphviz
+```
