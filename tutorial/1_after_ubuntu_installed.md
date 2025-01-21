@@ -1,4 +1,4 @@
-### 우분투 설치후
+# 우분투 설치후
 
 ```bash
 sudo apt-get update

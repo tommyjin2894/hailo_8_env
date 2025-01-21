@@ -1,2 +1,7 @@
 to_install/*
 .venv_hailo/*
+
+tutorial/yolo*
+tutorial/*.log
+
+tutorial/hailo_sdk.client.log
